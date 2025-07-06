@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+}
+
+:root {
+    --color_fff: #fff;
+    --color_C90000: #C90000;
+    --color_FFC300: #FFC300;
+    --color_7D7C7C: #7D7C7C;
+    --color_323232: #323232;
+    --color_504F4F: #504F4F;
+    --color_FFF6A3: #FFF6A3;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins/poppins-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins/poppins-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins/poppins-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins/poppins-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins/poppins-light-webfont.woff') format('woff');
+}
+
+.header_fearstpage {
+    margin-top: 1rem;
+}
+
+.container_site {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 58px 635px 187px;
+    align-items: center;
+    gap: 82px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.navigation ul li:first-child a {
+    color: var(--color_C90000);
+}
+
+.navigation ul li:not(:first-child) a {
+    color: var(--color_7D7C7C);
+}
+
+.navigation ul li a {
+    font-weight: 500;
+}
+
+.link_navigation a {
+    border: 1px solid var(--color_C90000);
+    padding: 4px;
+    border-radius: 100px;
+    font-weight: 600;
+}
+.link_navigation a:not(:last-child){
+    color: var(--color_C90000);
+    
+}
+.link_navigation a:not(:first-child) {
+    background-color: var(--color_C90000);
+    color: var(--color_fff);
+}
