@@ -74,8 +74,12 @@ ul {
     display: grid;
     justify-content: center;
     grid-template-columns: 58px 635px 187px;
+    justify-content: space-between;
     align-items: center;
-    gap: 82px;
+}
+
+.navigation img {
+    width: 35px;
 }
 
 .navigation ul {
@@ -87,6 +91,7 @@ ul {
 
 .navigation ul li:first-child a {
     color: var(--color_C90000);
+    font-weight: 600;
 }
 
 .navigation ul li:not(:first-child) a {
@@ -94,20 +99,101 @@ ul {
 }
 
 .navigation ul li a {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .link_navigation a {
     border: 1px solid var(--color_C90000);
-    padding: 4px;
+    padding: 9px 16px;
     border-radius: 100px;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 16px;
 }
-.link_navigation a:not(:last-child){
+
+.link_navigation a:not(:last-child) {
     color: var(--color_C90000);
-    
+
 }
+
 .link_navigation a:not(:first-child) {
     background-color: var(--color_C90000);
     color: var(--color_fff);
+}
+
+
+.main_header {
+    display: flex;
+    align-content: flex-end;
+
+}
+
+.container_left_header {
+    align-self: flex-end;
+
+}
+
+.container_left_header h1 {
+    font-weight: 600;
+    font-size: 58px;
+    color: var(--color_C90000);
+    line-height: 76px;
+
+}
+
+.container_left_header p {
+    color: var(--color_504F4F);
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 14px;
+
+}
+
+.price {
+    color: var(--color_323232);
+    font-size: 26px;
+    margin-top: 58px;
+
+}
+
+.price :not(:first-child) {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.price :not(:last-child) {
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.number {
+    display: flex;
+    margin-top: 87px;
+    gap: 64px;
+}
+
+.number_food {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(241, 241, 241);
+    padding: 2px 25px;
+    font-size: 29px;
+    gap: 12px;
+    border-radius: 100px;
+    background: var(--color_fff);
+    box-shadow: 0px 5px 17px -4px rgba(112, 112, 112);
+}
+
+.order {
+    font-weight: 600;
+    font-size: 24px;
+    padding: 15px 30px;
+    background-color: var(--color_FFC300);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    margin: -4px;
+}
+
+.order:not(:last-child) {
+    color: var(--color_323232);
 }
