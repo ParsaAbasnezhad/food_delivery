@@ -1,0 +1,34 @@
+.container {
+    background-color: #E52020;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 50rem;
+}
+
+.main {
+    width: 23rem;
+    height: 30rem;
+    background-color: #FBA518;
+    border-radius: 240px;
+    border: 1px solid #F0BB78;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    max-width: 12rem;
+    margin: auto;
+    line-height: 2rem;
+    margin-top: 17rem;
+}
+
+.email {
+    margin-top: 3px;
+}
+
+.input_email {
+    background-color: #347433;
+    border: 1px solid #FBA518;
+    border-radius: 11px;
+}
