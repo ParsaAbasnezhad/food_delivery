@@ -6,6 +6,7 @@
 
 body {
     font-family: poppins;
+    padding-bottom: 8rem;
 }
 
 :root {
@@ -16,6 +17,8 @@ body {
     --color_323232: #323232;
     --color_504F4F: #504F4F;
     --color_FFF6A3: #FFF6A3;
+    --color_E3E3E3: #E3E3E3;
+
 }
 
 a {
@@ -198,3 +201,49 @@ ul {
 .order:not(:last-child) {
     color: var(--color_323232);
 }
+
+.section_food {
+    margin: 51px;
+}
+
+.title_section_food h4 {
+    color: var(--color_C90000);
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.line_button {
+    width: 137px;
+    height: 9px;
+    background-color: var(--color_FFF6A3);
+    position: absolute;
+    z-index: -1;
+    top: 44px;
+}
+
+.row_botton_category {
+    display: flex;
+    padding: 14px 2px;
+    align-items: center;
+    gap: 19px;
+}
+
+.row_botton_category button {
+    border: 1px solid #e3e3e3;
+    border-radius: 100px;
+    height: 40px;
+    width: 140px;
+    color: var(--color_504F4F);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.item_food_grid{
+    width: 300px;
+    border: 1px solid var(--color_E3E3E3);
+    border-radius: 12px;
+}
+
