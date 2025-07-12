@@ -12,6 +12,7 @@
     background-color: #FBA518;
     border-radius: 240px;
     border: 1px solid #F0BB78;
+    box-shadow: 3px 3px 3px black;
 }
 
 .form_input {
@@ -21,14 +22,4 @@
     margin: auto;
     line-height: 2rem;
     margin-top: 17rem;
-}
-
-.email {
-    margin-top: 3px;
-}
-
-.input_email {
-    background-color: #347433;
-    border: 1px solid #FBA518;
-    border-radius: 11px;
 }
