@@ -1,25 +1,25 @@
-.container {
-    background-color: #E52020;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    height: 50rem;
-}
-
-.main {
-    width: 23rem;
-    height: 30rem;
-    background-color: #FBA518;
-    border-radius: 240px;
-    border: 1px solid #F0BB78;
-    box-shadow: 3px 3px 3px black;
-}
-
-.form_input {
+#body {
+    box-shadow: -1px 12px 30px 9px black;
+    margin-top: 163px;
+    border-radius: 26px;
     display: flex;
     flex-direction: column;
-    max-width: 12rem;
-    margin: auto;
-    line-height: 2rem;
-    margin-top: 17rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 27rem;
+    height: 28rem;
+}
+
+#phone-con{
+    width: 17rem;
+    margin: 1rem;
+    background: #034C53;
+
+}
+#button{
+    width: 15rem;
+    height: 3rem;
+    margin-top: 3rem;
+    background: #034C53;
 }
